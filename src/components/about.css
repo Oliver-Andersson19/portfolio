@@ -39,7 +39,7 @@
     line-height: 1.5em;
     color: #767676;
     
-    margin: 2em 0;
+    margin: 2em 0em;
 }
 
 .about-section .container .image-container img {
@@ -62,6 +62,7 @@
 @media (min-width:1025px) {
     .about-section {
         padding: 5em;
+        
     }
     .about-section .container {
         flex-direction: row;
@@ -73,7 +74,7 @@
     }
     .about-section .container p {
         max-width: 23em;
-        margin: 0;
+        margin: 1em 0em;
     }
 }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ }

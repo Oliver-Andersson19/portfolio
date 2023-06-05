@@ -4,19 +4,20 @@ import './about.css'
 function About(props) {
   return (
     <section className='about-section'>
-          <h1>About me</h1>
+          <h1>Vem är jag?</h1>
         <div className="container">
           <div className="image-container">
             <img src="desktop.jpg" alt="" />
           </div>
           <p>
-            As a front-end developer, I am passionate about creating visually appealing
-            and user-friendly interfaces for websites and applications. I have experience with
-            HTML, CSS, JavaScript, and also frameworks like React. I also have some experience using
-            NodeJS as a backend to build RestAPIs with MongoDB.
+            Som en Frontend-utvecklare brinner jag för att skapa visuellt tilltalande och användarvänliga gränssnitt för hemsidor. 
+            
             <p>
-              I am a creative problem solver who is constantly looking for new ways to improve my skills
-              and create high-quality interfaces.
+              Jag har god kunsap utav HTML, CSS, JavaScript och även ramverk som React. Jag har också erfarenhet av att använda NodeJS som en backend för att bygga t.ex. RestAPIs med MongoDB.
+            </p>
+            
+            <p>
+              Jag är en kreativ kille som älskar problemlösning och letar ständigt efter nya sätt att förbättra min kompetens och skapa högkvalitativa gränssnitt.
             </p>
           </p>
           

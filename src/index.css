@@ -20,3 +20,25 @@ body {
 
   background-color: #2d2e32;
 }
+
+@media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */ }
+
+@media (min-width:600px) {
+    :root {
+      font-size: 0.8em;
+    }
+}
+
+
+@media (min-width:801px) {
+    
+ }
+@media (min-width:1025px) {
+  
+}
+@media (min-width:1281px) {
+  :root {
+    font-size: 1em;
+  }
+}

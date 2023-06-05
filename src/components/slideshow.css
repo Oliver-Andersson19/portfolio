@@ -60,6 +60,13 @@
     object-fit: contain;
 }
 
+.project-container .project-image-container video {
+    height: auto;
+    width: 100%;
+
+    object-fit: contain;
+}
+
 
 .project-container .project-text-container {
     text-align: center;
@@ -74,6 +81,7 @@
     width: 80%;
     margin: 1.5em auto;
     color: #767676;
+    line-height: 1.5em;
 }
 
 .project-container .btn-wrapper {

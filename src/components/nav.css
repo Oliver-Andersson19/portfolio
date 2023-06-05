@@ -132,12 +132,16 @@ nav h1 {
     .menu-btn {
         display: none;
     }
-    body {
-        background-color: red;
+    nav {
+        padding: 1.5em;
     }
 }
 
 
 @media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
-@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+@media (min-width:1281px) { 
+    nav {
+        padding: 2em;
+    }
+ }

@@ -4,7 +4,7 @@ import './contact.css'
 function Contact(props) {
   return (
     <section className='contact-section' ref={props.contactRef} id='contact'>
-        <h2>Contact</h2>
+        <h2>Kontakt</h2>
 
 
         <div className="icon-wrapper">

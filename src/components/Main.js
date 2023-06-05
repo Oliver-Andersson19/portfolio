@@ -5,8 +5,8 @@ function Main() {
   return (
     <main id='about'>
         <div className="text-container">
-            <h2>Front-End React Developer</h2>
-            <p>Hi, I'm Oliver Andersson. A passionate Front-end React Developer based in Sandviken, Sverige.</p>
+            <h2>Front-End Utvecklare</h2>
+            <p>Hej! Jag heter Oliver Andersson. En blivande Front-end utvecklare från Sandviken, Sverige.</p>
         </div>
         <div className="skills">
             <h3>Tech Stack</h3>

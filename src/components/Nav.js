@@ -19,13 +19,13 @@ function Nav(props) {
           <h1>&lt; OLIVER /&gt;</h1>
           <ul className='nav-list'>
               <HashLink smooth to="/#about">
-                <li className='desktop-link'>About</li>
+                <li className='desktop-link'>Om</li>
               </HashLink>
               <HashLink smooth to="/#first-project" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}>
-                <li className='desktop-link'>Projects</li>
+                <li className='desktop-link'>Projekt</li>
               </HashLink>
               <HashLink smooth to="/#contact">
-                <li className='desktop-link'>Contact</li>
+                <li className='desktop-link'>Kontakt</li>
               </HashLink>
               <li className='menu-btn' onClick={toggleMobileNav}><i className="fa-solid fa-bars"></i></li>
           </ul>
@@ -34,13 +34,13 @@ function Nav(props) {
         <button className='close-btn' onClick={toggleMobileNav}><i className="fa-solid fa-xmark"></i></button>
         <ul>
           <HashLink smooth to="/#about">
-            <li className='mobile-link' onClick={toggleMobileNav}>About</li>
+            <li className='mobile-link' onClick={toggleMobileNav}>Om</li>
           </HashLink>
           <HashLink smooth to="/#project" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}>
-            <li className='mobile-link' onClick={toggleMobileNav}>Projects</li>
+            <li className='mobile-link' onClick={toggleMobileNav}>Projekt</li>
           </HashLink>
           <HashLink smooth to="/#contact">
-            <li className='mobile-link' onClick={toggleMobileNav}>Contact</li>
+            <li className='mobile-link' onClick={toggleMobileNav}>Kontakt</li>
           </HashLink>
         </ul>
       </div>
