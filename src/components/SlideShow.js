@@ -6,22 +6,12 @@ function SlideShow() {
     const ref = useRef(null)
     const amountOfSlides = 2;
 
-    const prev = () => {
-        ref.current.scrollLeft -= ref.current.scrollWidth / amountOfSlides;
-        console.log(ref.current.scrollWidth)
-    }
 
-    const next = () => {
-        ref.current.scrollLeft += ref.current.scrollWidth / amountOfSlides;
-        console.log(ref.current.scrollWidth)
-        
-    }
 
 
     return (
         <>
-            <button className='prev' onClick={prev}><i class="fa-solid fa-chevron-left"></i></button>
-            <button className='next' onClick={next}><i class="fa-solid fa-chevron-right"></i></button>
+            
             <div className="projects-wrapper" ref={ref} id='project'>
                 
                 
