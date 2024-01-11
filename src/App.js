@@ -1,24 +1,14 @@
-import Nav from "./components/Nav";
-import Main from "./components/Main";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-
 function App() {
 
   return (
-    <BrowserRouter>
-      <div className="page-wrapper">
-        <Nav></Nav>
-        <Main></Main>
-        <About></About>
-        <Projects></Projects>
-        <Contact></Contact>
-        <Footer></Footer>
+    <div className="page-wrapper">
+      <div className="center">
+        <p><a href="https://oliver-andersson.se">oliver andersson</a></p>
+        <p><a href="mailto:oliver.andersson101@gmail.com" target="_blank">email</a></p>
+        <p><a href="https://github.com/Oliver-Andersson19" target="_blank">github</a></p>
+        <p><a href="https://www.linkedin.com/in/oliver-andersson-789405143/" target="_blank">linkedin</a></p>
       </div>
-    </BrowserRouter>
+    </div>
   );
 }
 
