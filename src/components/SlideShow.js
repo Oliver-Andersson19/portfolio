@@ -31,6 +31,27 @@ function SlideShow() {
                 </div> */}
                 <div className="project-container" id='first-project'>
                     <div className="project-image-container">
+                        <img src="chatbot.png" alt="" className='project-image'/>
+                    </div>
+                    <div className="project-text-container">
+                        <div>
+                            <h2>Chatbot - Examensarbete</h2>
+                            <p>
+                            Detta projekt utgör mitt examensarbete som sträckte sig över 6 veckor och motsvarade 30 YH-poäng.
+                            Chatboten skapas upp enkelt med chatbot-byggaren där man ser ändringarna i realtid. Chatboten integreras enkelt genom att klistra in en script-tag på vilken site som helst och då laddas chatbotens kod in automatiskt från backend-servern.
+                            <br></br>
+                            <br></br>
+                            Läs mer om projektet på GitHub.
+                            </p>
+                        </div>
+                        <div className="btn-wrapper">
+                            <a href="https://github.com/Oliver-Andersson19/chatbot-examensarbete" target='_blank' rel='noreferrer'>GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div className="project-container">
+                    <div className="project-image-container">
                         <img src="filmvisarna.png" alt="" className='project-image'/>
                     </div>
                     <div className="project-text-container">
@@ -42,7 +63,7 @@ function SlideShow() {
                             </p>
                         </div>
                         <div className="btn-wrapper">
-                            <a href="https://github.com/IsacZetterstrom/Frontend-Project" target='_blank' rel='noreferrer'>Code</a>
+                            <a href="https://github.com/IsacZetterstrom/Frontend-Project" target='_blank' rel='noreferrer'>GitHub</a>
                             <a href="https://filmvisarna-team2.nodehill.se/" target='_blank' rel='noreferrer'>Live Demo</a>
                         </div>
                     </div>
@@ -61,7 +82,7 @@ function SlideShow() {
                             <p>Uppgiften var att skapa en frontendlösning till en backend som innehåller information om böcker och dess användare. API:et innehåller både administratörer och vanliga användare, men går även att använda som icke-authentiserad användare viss begränsning</p>
                         </div>
                         <div className="btn-wrapper">
-                            <a href="https://github.com/Oliver-Andersson19/javascript-3-exam" target='_blank' rel='noreferrer'>Code</a>
+                            <a href="https://github.com/Oliver-Andersson19/javascript-3-exam" target='_blank' rel='noreferrer'>GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -76,7 +97,7 @@ function SlideShow() {
                             <p>Ett av dom första projekten jag gjorde där vi fick lära oss att prata med APIn, hitta tåg och buss-rutter, gjort med React och Trafiklabs API.</p>
                         </div>
                         <div className="btn-wrapper">
-                            <a href="https://github.com/Oliver-Andersson19/react-trafiklab" target='_blank' rel='noreferrer'>Code</a>
+                            <a href="https://github.com/Oliver-Andersson19/react-trafiklab" target='_blank' rel='noreferrer'>GitHub</a>
                             <a href="https://oliver-andersson19.github.io/react-trafiklab/" target='_blank' rel='noreferrer'>Live Demo</a>
                         </div>
                     </div>
