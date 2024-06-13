@@ -13,7 +13,7 @@ function About(props) {
             Som en Frontend-utvecklare brinner jag för att skapa visuellt tilltalande och användarvänliga gränssnitt för hemsidor. 
             
             <p>
-              Jag har god kunskap utav HTML, CSS, JavaScript och även ramverk som React. Jag har också erfarenhet av att använda NodeJS som en backend för att bygga t.ex. RestAPIs med MongoDB.
+              Jag har god kunskap utav HTML, CSS, JavaScript och React.js. Jag har också mycket erfarenhet av att bygga backends och RestAPI med Node.js+Express med MongoDB/SQL som databas.
             </p>
             
             <p>

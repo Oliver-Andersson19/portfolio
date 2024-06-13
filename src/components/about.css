@@ -23,7 +23,6 @@
 }
 
 .about-section .container .image-container {
-    max-width: 30em;
 
     flex-shrink: 0;
     
@@ -35,9 +34,8 @@
 .about-section .container p {
 
 
-    text-align: center;
-    line-height: 1.5em;
-    color: #767676;
+    line-height: 150%;
+    color: #515151;
     
     margin: 2em 0em;
 }
@@ -70,6 +68,7 @@
         gap: 8em;
     }
     .about-section .container .image-container{
+        max-width: 30em;
         margin: 0;
     }
     .about-section .container p {

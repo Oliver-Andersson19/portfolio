@@ -5,8 +5,8 @@ function Main() {
   return (
     <main id='about'>
         <div className="text-container">
-            <h2>Front-End Utvecklare</h2>
-            <p>Hej! Jag heter Oliver Andersson. En blivande Front-end utvecklare från Sandviken, Sverige.</p>
+            <h1>Front-End Utvecklare</h1>
+            <p>Hej! Jag heter Oliver Andersson. Jag är en nyexaminerad Front-end utvecklare från Sandviken, Sverige.</p>
         </div>
         <div className="skills">
             <h3>Tech Stack</h3>
@@ -28,6 +28,8 @@ function Main() {
                 </li>
                 <li className="skill-item">
                 <img src="mongodblogo.png" alt="" />
+                </li><li className="skill-item">
+                <img src="sqllogo.jpg" alt="" />
                 </li>
             </ul>
         </div>

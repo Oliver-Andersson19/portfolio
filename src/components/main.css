@@ -16,7 +16,7 @@ main .text-container {
     text-align: center;
 }
 
-main .text-container h2 {
+main .text-container h1 {
     font-size: 3em;
     color: #2d2e32;
 }
@@ -25,7 +25,7 @@ main .text-container p {
     margin-top: 2em;
     font-size: 1em;
     line-height: 1.5em;
-    color: #767676;
+    color: #515151;
 }
 
 
